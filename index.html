@@ -18,12 +18,41 @@
         <section>
             <div class="container">
                 <div class="row">
-                  <div class="col-sm-8">
-                      <div>
-                          <img src="" alt="">
-                      </div>
+                  <div class="col-sm-7">
+                    <img width="100%" height="100%" src="images/money-banner.jpg" alt="">
                   </div>
-                  <div class="col-sm-4">col-sm-4</div>
+                  <div class="col-sm-5">
+                    <div class="text-center bg-dark-300">
+                        <div id="income-expense">
+                            <div id="income-total" >
+                                <h2 class="my-3">Total Income</h2>
+                                <p><span>Income</span>: <input type="text"></p>
+                            </div>
+                            <div id="Expenses">
+                                <h2 class="my-4">Expenses</h2>
+                                <p>Food: <input id="food-input" type="text"></p>
+                                <br>
+                                <p>Rent: <input id="rent-input" type="text"></p>
+                                <br>
+                                <p>Clothes: <input id="clothes-input" type="text"></p>
+                            </div>
+                            <button id="calculate-btn" type="button" class="btn btn-outline-success my-3 text-center">Calculate</button>
+                        </div>
+                        <div class="total-expense-balance ">
+                              <h2 class="mb-3">Total Expenses: <span id="total-expense">3600</span></h2>
+                              <h2 class="mb-3">Balance: <span>1200</span></h2>
+                        </div>
+                        <div class="savings">
+                            <p>Savings: <input type="text" maxlength="5" size="3"> % <button type="button" class="btn btn-outline-success">Save</button></p>
+                              </div> 
+                        </div>
+                        <div class="final-balance text-center">
+                          <h2>Savings Amount: <span>3600</span></h2>
+                          <h2>Balance: <span>1200</span></h2>
+                    </div>
+                    </div>
+                </div>
+                  
                 </div>
                 
               </div>
