@@ -1,1 +1,25 @@
 
+.calculate-bg{
+    background-color: #ffd9de;
+    
+}
+#total-income{
+    border: 1px solid rgb(180, 161, 157);
+    border-radius: 6px;
+    margin-left: 10px;
+}
+#food-input{
+    border: 1px solid rgb(180, 161, 157);
+    border-radius: 6px;
+    margin-left: 16px;
+}
+#rent-input{
+    border: 1px solid rgb(180, 161, 157);
+    border-radius: 6px;
+    margin-left: 16px;
+}
+#clothes-input{
+    border: 1px solid rgb(180, 161, 157);
+    border-radius: 6px;
+    
+}
