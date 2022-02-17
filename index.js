@@ -22,12 +22,9 @@ document.getElementById('calculate-btn').addEventListener('click', function(){
 
     const balanceTotal = document.getElementById('balance');
     balanceTotal.innerText = totalIncome - totalInput;
-
-    if(totalInput > totalIncome){
-        alert("don't enough balance..!");
+    if(totalExpense.innerText > totalIncome){
+        alert('do not enough balance.!!');
     }
-
-    
     
 });
 
